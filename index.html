@@ -7,11 +7,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Play&family=Roboto&family=Secular+One&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/74510c919c.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="main.css">
     <title>Invoice 2.0</title>
 </head>
 <body>
     <div class='container'>
+        <!-- header start -->
         <header class='header'>
             <div class="logo">
                 <svg class="siteMapSVG" id="treehouseIconXML" data-name="Layer 20" xmlns="http://www.w3.org/2000/svg"
@@ -23,11 +25,46 @@
                 </svg>
                 <h1>Treehouse Invoice 2.0</h1>
             </div>
-            
             <div class="headerBtn">
                 <a href="#" class='btnLoad'>Load Front Sheet</a>
             </div>
         </header>
+        <!-- header end -->
+    
+        <!-- text input one start -->
+       <div class="inputTextOne">
+           <!--text one start  -->
+           <div class="inputOne">
+             <label for="name">Name: </label>
+             <input type="text" name="name" id="name"/>
+             <br/>
+             <label for="address">Address: </label>
+             <input type="text" name="address" id="address"/>
+             <br />
+             <label for="phone">Phone: </label>
+             <input type="text" name="phone" id="phone" />
+             <br />
+             <label for="email">Email:</label>
+             <input type="email" name="email" id="email" />
+           </div>
+           <!-- text one end -->
+
+          <!-- text two start -->
+          <div class="inputTwo">
+            <label for="invoice">Invoice: </label>
+            <input type="text" name="invoice" id="invoice" />
+            <br />
+            <label for="date">Date(s): </label>
+            <input type="text" name="date" id="date" />
+            <br />
+            <label for="rate">Base Rate:<i class="fas fa-dollar-sign"></i> </label>
+            <input type="text" name="rate" id="rate" />
+            <br />
+            <p class="inputParagraph">Please forward each invoice on the 15<sup>th</sup> of the month for approval</p>
+          </div>
+          <!-- text two end -->
+       </div>
+       <!-- text input one end -->
     </div>
     
 
