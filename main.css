@@ -163,12 +163,13 @@ input{
 /* alert STOP start */
 .stop{
     border: 3px solid green;
-    width: 600px;
+    width: 900px;
     text-align: center;
     margin: auto;
     border-radius: 3px;
-    padding: .9rem;
+    padding: .9rem 2rem;
     font-family: 'Secular One', sans-serif; 
+    display: none;
 }
 .stop h1{
     color: red;
