@@ -4,6 +4,7 @@ const clearBtn = document.querySelector('#clearBtn');
 const stop = document.querySelector('.stop');
 const container = document.querySelector('.container');
 const closeAlertBtn = document.querySelector('.closeAlertBtn');
+const clearAlertBtn = document.querySelector('.clearAlertBtn');
 
 createRowBtn.addEventListener('click', () => {
     if(row.value == '') {
@@ -25,5 +26,10 @@ clearBtn.addEventListener('click', () => {
 })
 
 closeAlertBtn.addEventListener('click', () => {
+    stop.style.display = 'none';
+})
+
+clearAlertBtn.addEventListener('click', () => {
+    row.value = '';
     stop.style.display = 'none';
 })
