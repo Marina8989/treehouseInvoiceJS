@@ -81,14 +81,22 @@ input{
     width: 50%;
     text-align: left;
 }
-
+.inputOne input{
+    width: 75%;
+}
+#address{
+    margin-left: -12px;
+}
 .inputTwo{
     width: 50%;
     text-align: left;
 }
+#invoice, #date{
+    margin-left: 22px;
+}
 .inputTwo .inputParagraph{
-    font-size: 13px;
-    text-align: center;
+    font-size: 12px;
+    margin-left: 19px;
     color:rgba(13, 107, 13, .6);
 }
 .sendTo, .sendFor{
@@ -108,6 +116,7 @@ input{
   font-size: 19px;
 }
 #to, #for{
+    margin: .9rem 0 0 .5rem;
     border: 1px solid lightgrey;
     font-size: 14px;
     border-radius: 3px;
