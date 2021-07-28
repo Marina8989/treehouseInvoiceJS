@@ -63,16 +63,19 @@ body{
     box-shadow: 1px 2px 9px grey;
     font-family: 'Secular One', sans-serif;
     color: green;
+    position: relative;
 }
 label{
     padding: .5rem 1rem;
     margin: .3rem;
 }
 input{
-   padding: .2rem 0;
+   padding: .3rem 0;
    margin: .3rem 0;
    text-align: center;
    width: 67%;
+   border-radius: 3px;
+   border: 1px solid lightgrey;
 }
 .inputOne{
     width: 50%;
@@ -84,9 +87,27 @@ input{
     text-align: left;
 }
 .inputTwo .inputParagraph{
-    font-size: 12px;
+    font-size: 13px;
     text-align: center;
-    padding-right: 15px;
-    color:rgba(13, 107, 13, .9);
-    
+    color:rgba(13, 107, 13, .6);
+}
+.sendTo, .sendFor{
+    padding: 1rem;
+}
+
+.to{
+  position: absolute; 
+  top: 2rem;
+  left: 2rem;
+  font-size: 19px;
+}
+.for{
+  position: absolute; 
+  top: 2rem;
+  left: 29rem;
+  font-size: 19px;
+}
+#to, #for{
+    border: 1px solid lightgrey;
+    font-size: 14px;
 }
