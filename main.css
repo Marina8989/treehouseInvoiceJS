@@ -59,7 +59,7 @@ body{
     padding: 2rem 1rem;
     width: 70%;
     text-align: center;
-    margin: 2rem auto;
+    margin: 1.3rem auto;
     box-shadow: 1px 2px 9px grey;
     font-family: 'Secular One', sans-serif;
     color: green;
@@ -92,22 +92,23 @@ input{
     color:rgba(13, 107, 13, .6);
 }
 .sendTo, .sendFor{
-    padding: 1rem;
+    padding: .2rem;
 }
 
 .to{
   position: absolute; 
-  top: 2rem;
+  top: .2rem;
   left: 2rem;
   font-size: 19px;
 }
 .for{
   position: absolute; 
-  top: 2rem;
-  left: 29rem;
+  top: .2rem;
+  left: 28.5rem;
   font-size: 19px;
 }
 #to, #for{
     border: 1px solid lightgrey;
     font-size: 14px;
+    border-radius: 3px;
 }
